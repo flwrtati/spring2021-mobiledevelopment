@@ -4,9 +4,9 @@ import Component from './Component.js';
 // Article is a child object of Component
 class Article extends Component {
 
-  constructor (title, author, text) {
+  constructor (arti) {
     // Send what it gets to its parent object
-    super(title, author, text)
+    super(arti)
   }
 
   render () {
