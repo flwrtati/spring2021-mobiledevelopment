@@ -7,7 +7,7 @@ class Article extends Component {
   constructor (arti) {
     // Send what it gets to its parent object
     super(arti)
-    //pushed back to article class
+    //Pushed back to article class
   }
 
   render () {
@@ -19,7 +19,7 @@ class Article extends Component {
         <Author>${this.props.author}</Author>
         <Text>${this.props.text}</Text>
       </Article>
-    ` //renders everything in article
+    ` //Renders everything in article
 
     );
     
