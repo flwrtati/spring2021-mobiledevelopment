@@ -4,7 +4,9 @@ import Example from './components/example/index';
 
 function App() {
   return (
-    <Example/>
+     <div>
+       <p> <Example/> </p>
+     </div>
   );
 }
 
