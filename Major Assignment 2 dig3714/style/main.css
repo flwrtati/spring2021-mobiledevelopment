@@ -1,0 +1,103 @@
+/*import normalized css*/
+@import "normalize.css";
+
+/*style header*/
+header {
+    background-color: rgb(85, 47, 134);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+/*style list items in nav bar*/
+li {
+    padding: 10px;
+    display: inline;
+    margin: 20px;
+    }
+
+    a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+      }
+/*basic body style*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    margin-top: 50px;
+}
+/*image size depending on viewport*/
+img {
+    max-width: 80%;
+    padding: auto;
+}
+/*image of me*/
+img.me {
+    max-width: 40%;
+}
+
+/*smaller viewport*/ 
+@media screen and (max-width: 600px) {
+    /*One column*/
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: white;
+
+    }
+    /*Style paragraphs*/
+    .par {
+        text-align: center;
+        font-size: 16px;
+        padding: 10px; 
+    }
+
+}
+
+/*bigger viewport*/
+@media screen and (min-width:600px) {
+    /*three columns*/
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: white;
+    }
+   /*Style paragraph*/
+   .par {
+    text-align: center;
+    font-size: 20px;
+    padding: 50px; 
+    }
+}
+
+/*grid*/ 
+.contact{
+    background-color: rgb(255, 255, 177);
+    height: 170px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+/*style link to ig*/
+.ig {
+    color: black;
+}
+/*link hover*/
+a:hover {
+    color: rgb(255, 139, 31);
+  }
+
+/*style grid items*/
+.grid-item {
+    background-color: rgb(139, 120, 207);
+    border: 3px solid rgb(241, 241, 147);
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
