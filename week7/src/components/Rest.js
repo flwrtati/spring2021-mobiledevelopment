@@ -7,7 +7,7 @@ class Rest extends Component {
         this.state = {
             time: 0
         };
-    };
+    }; 
 
     render() {
         //Buttons to add or reset
