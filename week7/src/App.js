@@ -13,10 +13,10 @@ function App() {
       <header>
         <nav>
           <ul>
-            <li><a href ="About">Home</a></li>
-            <li><a href ="About">Daily Tracker</a></li>
-            <li><a href ="About">Progress</a></li>
-            <li><a href ="About">Settings</a></li>
+            <li><a href ="Home">Home</a></li>
+            <li><a href ="Home">Daily Tracker</a></li>
+            <li><a href ="Home">Progress</a></li>
+            <li><a href ="Home">Settings</a></li>
           </ul>
         </nav>
       </header>
